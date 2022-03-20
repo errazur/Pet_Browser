@@ -105,7 +105,7 @@ $stm->execute();
     <?php } ?>
     
     <?php   if($espece == 2){ ?>
-        <option value="4"<?= $race == 4? 'selected' : '' ?>Bleu russe</option>
+        <option value="4"<?= $race == 4? 'selected' : '' ?>>Bleu russe</option>
         <option value="5"<?= $race == 5? 'selected' : '' ?>>Maine coon</option>
         <option value="6"<?= $race == 6? 'selected' : '' ?>>Singapura</option>
         <option value="7"<?= $race == 7? 'selected' : '' ?>>Sphynx</option>
